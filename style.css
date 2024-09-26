@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #11071F;
+    color:#FFFFFF;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    padding: 0 10%;
+}
+
+header{
+    background-color:#1B1B1B;
+    height: 102px;
+}
+
+nav>a{
+    text-decoration: none;
+    color:#FFFFFF;
+    display: inline-block;
+    padding: 37px 11%;
+
+}
+
+header>nav{
+    height: 100%;
+}
+
+footer{
+    text-decoration: none;
+    background-color: #1B1B1B;
+    height:400px;
+
+
+    
+    
+}
+
+nav{
+    font-size:20px;
+    text-align: center;
+
+}
+
+img.profilepic {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.profile>div {
+    DISPLAY: INLINE-BLOCK;
+    width: 79%;
+}
+
+.card>img{
+    width: 70px;
+
+}
+
+.card {
+    width: 42%;
+    display: inline-block;
+    padding: 20px;
+    height: 170px;
+    background-color: rgba(255,255,255,0.5);
+    /* background: radial-gradient(#c24fe780, transparent); */
+    border-radius: 20px;
+    margin: 7px;
+}
+
+footer>p{
+    font-size:20px;
+    font-family:monospace;
+    text-align: center;
+}
+
+.reading{
+    /* background-image: url(img/Experience.svg); */
+    /* background-size: cover; */
+}
+.card>div{
+    display: inline-block;
+    width: 78%;
+    padding: 6px;
+}
+
+.profile{
+    margin: 60px 0 150px;
+}
+
+.grade{
+    margin: 0 0 105px;
+}
+.card h1{
+    margin: 0 0 10px;
+}
+
+.hobby {
+    background: radial-gradient(#c24fe780, transparent);
+    background-size: 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
